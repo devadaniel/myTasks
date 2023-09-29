@@ -1,0 +1,128 @@
+.app-container {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .create-task-container {
+    background-color: #131213;
+    background-size: cover;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tag-container {
+    background-color: #000000;
+    background-size: cover;
+    height: 100vh;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .create-task-container {
+    background-color: #131213;
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tag-container {
+    background-color: #000000;
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+    padding: 10px;
+  }
+}
+
+.create-task-heading {
+  color: #f3aa4e;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.task-label {
+  display: flex;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #ffff;
+}
+.input-task {
+  height: 30px;
+  width: 250px;
+  padding-left: 10px;
+  outline: none;
+  color: #323f4b;
+}
+
+.options-add-task-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-options {
+  height: 30px;
+  width: 250px;
+  padding-left: 5px;
+  outline: none;
+}
+
+.add-task-button {
+  height: 30px;
+  width: 100px;
+  padding: 5px;
+  border: none;
+  background-color: #f3aa4e;
+  color: #ffff;
+  font-weight: 600;
+  margin-top: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.tags-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.tag-button-items {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.task-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.no-task-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.each-task-items {
+  padding-left: 0px;
+}
